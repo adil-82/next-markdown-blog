@@ -25,7 +25,7 @@ export default function Home({posts}) {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 ">    
           {posts.map((post, index) => (
             // <h3> {post.frontmatter.title} </h3>
-            <Post post={post} />
+            <Post key={index} post={post} />
           ))}
 
       </div>
