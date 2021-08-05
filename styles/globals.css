@@ -1,4 +1,22 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom styles */
+/* h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-600 underline;
+} */
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +31,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
+} */
